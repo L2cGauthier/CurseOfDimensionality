@@ -6,7 +6,7 @@ This project is a learning experiment. It's aimed at visualizing the so-called c
 
 In machine learning, the curse of dimensionality is a phenomenon that appears when considering spaces with a high number of dimensions. Indeed, if we have some data points in R<sup>p</sup> (observations with p features), the higher p, the more adding an additional dimension will increase the volume of the space containing the data points.
 
-In other words, if we have just a few observations and a lot of features, the available data will become sparse, and distance-based algorithm (like k-NN) will be less and less relevant. A simple illustration can be obtained with the following process.
+In other words, if we have just a few observations and a lot of features, the available data will become sparse, and distance-based algorithm (like k-NN) a lot less relevant. A simple illustration can be obtained with the following process.
 
 
 ```
