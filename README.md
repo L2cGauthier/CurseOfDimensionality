@@ -9,6 +9,7 @@ In machine learning, the curse of dimensionality is a phenomenon that appears wh
 In other word, if we have just a few observations and a lot of features, the available data will become sparse. In order to convince ourself, we made a simple script working as follow.
 
 ```
+
 For numbers of dimension between 1 and 100
 	Generate 10k pairs of points which coordinates are uniformly distributed in [0,1]
 	Calculate the average, and minimum distance among those pairs
@@ -20,13 +21,17 @@ Plot the average and minimum distance among pairs with respect to the number of 
 
 If we consider spaces of dimension 1 to 100, and measure the mean and minimum distances between 10k pairs of random points with coordinates in [0,1], we obtain the following plot.
 
+
 ![Curse of dimensionality visualization](https://github.com/L2cGauthier/CurseOfDimensionality/blob/master/Results/100D-10kpairs.png?raw=true)
 
-We observe that the average distance between pair is increasing steadily and rapidly. In fact given the fact we generated points which coordinates are uniformly distributed in [0,1], we can write the function f associating to the number of dimension the average distance between pairs as:
+
+We observe that the average distance between pairs is increasing steadily and rapidly. To be more precise, given the fact we generated points which coordinates are uniformly distributed in [0,1], if the number of pair generated is high enough, we can write the function f associating to the number of dimension with the average distance between pairs as:
+
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" title="f(x) = \sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}} = \frac{1}{2}\sqrt{x}" /></a>
 
-The minimum distance between pair is always smaller than the mean but increases at roughly the same rate as the mean distance.
+
+The minimum distance between pairs is always smaller than the mean but increases at roughly the same rate as the mean distance.
 
 
 
