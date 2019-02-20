@@ -19,9 +19,9 @@ If we consider spaces of dimension 1 to 100, and measure the mean and minimum di
 
 We observe that the average distance between pair is increasing steadily and rapidly. In fact given the fact we generated points which coordinates are uniformly distributed in [0,1], we can write the function f associating to the number of dimension the average distance between pairs as:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(0.5)^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(0.5)^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" title="f(x) = \sqrt{\sum_{i=1}^{x}(0.5)^{2}} = \frac{1}{2}\sqrt{x}" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" title="f(x) = \sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}} = \frac{1}{2}\sqrt{x}" /></a>
 
-The minimum distance between pair is always smaller than the mean but increases at roughly the same rate as the number of dimension grows.
+The minimum distance between pair is always smaller than the mean but increases at roughly the same rate as the mean distance.
 
 
 
