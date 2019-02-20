@@ -109,7 +109,7 @@ if __name__ == "__main__":
     plt.plot(ratioDistance)
     plt.ylabel("Distance")
     plt.xlabel("Dimension") 
-    plt.title("Illustration of the curse of dimensionality")
-    plt.legend(['Minimum distance', 'Average Distance', 'Minimum / average distance'], loc='upper left')
+    plt.title("The curse of dimensionality")
+    plt.legend(['Minimum distance', 'Average distance', 'Minimum / average distance'], loc='upper left')
     plt.show()
 
