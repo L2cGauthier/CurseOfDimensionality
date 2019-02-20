@@ -26,7 +26,7 @@ If we consider spaces of dimension 1 to 100, and measure the mean and minimum di
 ![Curse of dimensionality visualization](https://github.com/L2cGauthier/CurseOfDimensionality/blob/master/Results/100D-10kpairs.png?raw=true)
 
 
-We observe that the average distance between pairs is increasing steadily and rapidly. To be more precise, given the fact we generated points which coordinates are uniformly distributed in [0,1], if the number of pair generated is high enough, we can write the function f associating to the number of dimension with the average distance between pairs as:
+We observe that the average distance between pairs is increasing steadily and rapidly. To be more precise, given the fact we generated points which coordinates are uniformly distributed in [0,1], if the number of pair generated is high enough, we can write the function f associating the average distance between pairs to the number of dimension x as:
 
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" title="f(x) = \sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}} = \frac{1}{2}\sqrt{x}" /></a>
