@@ -32,7 +32,7 @@ We observe that the average distance between pairs is increasing steadily and ra
 <a href="https://www.codecogs.com/eqnedit.php?latex=f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;\sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}}&space;=&space;\frac{1}{2}\sqrt{x}" title="f(x) = \sqrt{\sum_{i=1}^{x}(\frac{1}{2})^{2}} = \frac{1}{2}\sqrt{x}" /></a>
 
 
-The minimum distance between pairs is always smaller than the mean but increases at roughly the same rate as the mean distance.
+The minimum distance between pairs is always smaller than the mean but increases at roughly the same rate.
 
 
 
